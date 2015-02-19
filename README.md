@@ -1,18 +1,27 @@
 # sublime-swig
+Syntax highlighting for Swig Templates in Sublime Text.
 
-> Syntax highlighting for Swig Templates in Sublime Text.
 
-Companion to [Monokai Extended](https://github.com/jonschlinkert/sublime-monokai-extended) and [sublime-markdown-extended](https://github.com/jonschlinkert/sublime-markdown-extended).
+## Installation
+### via Package Control (Recommended)
+[Package Control](http://wbond.net/sublime_packages/package_control) is a package manager for Sublime Text 2 & 3.  If you don't already have it installed, follow the [installation instructions here](https://sublime.wbond.net/installation).
 
-I'm working on getting this published so you can install it using Package Control, but for now to use this in Sublime Text, go to `Sublime Text 3/Packages` and:
+Once Package Control is installed, restart Sublime and follow these steps:
+* Open the Command Pallette (`cmd + shift + p` on OS X / Linux or `ctrl + shift + p` on Windows)
+* Type "install" and select "Package Control: Install Package"
+* Type "swig" and press Enter
+
+All done! Package Control will automatically update the package whenever there's a new version.
+
+### manually
+(You'll need to update it manually)
+Go to `Sublime Text 3/Packages` and:
 
 ```bash
 git clone https://github.com/jonschlinkert/sublime-swig.git .
 ```
 
 Next in Sublime Text, from the toolbar select the following: `View > Syntax > Open all with current extension as... > Swig`.
-
-_More info coming soon..._
 
 ## Examples
 
@@ -25,15 +34,6 @@ _More info coming soon..._
 ![image](https://f.cloud.github.com/assets/383994/1143037/8922ec9e-1d12-11e3-91f9-e0bcff20e0b8.png)
 
 
-## Related projects
-
-* [sublime-monokai-extended](https://github.com/jonschlinkert/sublime-monokai-extended)
-* [sublime-markdown-extended](https://github.com/jonschlinkert/sublime-markdown-extended)
-* [assemble](http://github.com/assemble) (see the [live docs](http://assemble.io))
-* [assemble-swig](http://github.com/assemble/assemble-swig)
-* [assemble-swig-examples](http://github.com/assemble/assemble-swig-examples)
-
-
 ## Author
 
 **Jon Schlinkert**
@@ -44,7 +44,7 @@ _More info coming soon..._
 
 ## Copyright and license
 
-Copyright (c) 2013 Jon Schlinkert
+Copyright (c) 2015 Jon Schlinkert
 Licensed under the [MIT License](./LICENSE-MIT) (MIT)
 
 
